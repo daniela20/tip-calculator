@@ -14,6 +14,7 @@
 		60A02B4E1D109D1200CB261D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60A02B4C1D109D1200CB261D /* LaunchScreen.storyboard */; };
 		60A02B591D109D1200CB261D /* tipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A02B581D109D1200CB261D /* tipperTests.swift */; };
 		60A02B641D109D1200CB261D /* tipperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A02B631D109D1200CB261D /* tipperUITests.swift */; };
+		60A02B721D10E2EC00CB261D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A02B711D10E2EC00CB261D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		60A02B5F1D109D1200CB261D /* tipperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A02B631D109D1200CB261D /* tipperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipperUITests.swift; sourceTree = "<group>"; };
 		60A02B651D109D1200CB261D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60A02B711D10E2EC00CB261D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		60A02B371D109D1200CB261D = {
 			isa = PBXGroup;
 			children = (
+				60A02B711D10E2EC00CB261D /* SettingsViewController.swift */,
 				60A02B421D109D1200CB261D /* tipper */,
 				60A02B571D109D1200CB261D /* tipperTests */,
 				60A02B621D109D1200CB261D /* tipperUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				60A02B461D109D1200CB261D /* ViewController.swift in Sources */,
 				60A02B441D109D1200CB261D /* AppDelegate.swift in Sources */,
+				60A02B721D10E2EC00CB261D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
